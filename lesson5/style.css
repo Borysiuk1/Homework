@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .1s ease-in;
+}
+body {
+	height: 100vw;
+	background-color: #3B3F45;
+	font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
+}
+header{
+	color: #EB7E7F;
+    background-color: #4A4F56;
+    text-align: center;
+    padding: 50px 0 20px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+div{
+	width: 50%;
+	margin: 0 auto;
+}
+
+div ul{
+	list-style: none;
+	background: #88839E;
+	color: white;
+	margin-bottom: 30px; 
+	cursor: pointer;
+}
+
+div ul li:nth-child(even){
+	background: #7A7593; 
+}
+
+div ul li{
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+div ul li input{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.secondarytext{
+	font-size: 14px;
+    color: #C5BDC3;
+    line-height: 40px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px 0;
+    color: #EB7E7F;
+    background-color: #4A4F56;
+    text-align: center;
+    font-size: 21px;
+    font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
+}
+
+ul li label {
+	display: block;
+	line-height: 40px;
+	cursor: pointer;
+}
+ul li:hover{
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background-color: #625E77
+}
+
+
+ul li input[type="checkbox"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+
+}
+
+ul li input[type="checkbox2"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+}
+
+ul li input[type="checkbox3"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+}
+
+ul li input[type="checkbox4"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+}
+
+ul li input[type="checkbox5"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+}
+
+ul li input[type="checkbox6"]:checked ~ span {
+	text-decoration: line-through;
+	color: #C5BDC3;
+}
+
+div ul li:hover{
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background-color: #625E77;
+}
+
+div ul li:active{
+	background: #EB7E7F;
+}
+
+li [type="checkbox"]{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+}
+
+
+
