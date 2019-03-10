@@ -11,16 +11,16 @@ div{
 	margin-top: 20px;
 	animation: show 1s forwards;
 }
-ol{
-	margin-left: 10px;
+ul{
 	font-style: italic;
 	text-decoration: underline;
 	text-align: center;
 	animation: show 1s forwards;
 	list-style-type: none;
 	font-size: 25px;
-
 }
+
+
 @keyframes show {
     from {
         opacity: 0;

@@ -16,6 +16,7 @@ header{
     font-size: 21px;
     margin-bottom: 30px;
 }
+
 div{
 	width: 50%;
 	margin: 0 auto;
@@ -66,47 +67,21 @@ ul li label {
 	line-height: 40px;
 	cursor: pointer;
 }
+
 ul li:hover{
 	border-bottom: 2px solid white;
 	border-top: 2px solid white;
 	background-color: #625E77
 }
 
-
 ul li input[type="checkbox"]:checked ~ span {
-	text-decoration: line-through;
-	color: #C5BDC3;
-
-}
-
-ul li input[type="checkbox2"]:checked ~ span {
-	text-decoration: line-through;
-	color: #C5BDC3;
-}
-
-ul li input[type="checkbox3"]:checked ~ span {
-	text-decoration: line-through;
-	color: #C5BDC3;
-}
-
-ul li input[type="checkbox4"]:checked ~ span {
-	text-decoration: line-through;
-	color: #C5BDC3;
-}
-
-ul li input[type="checkbox5"]:checked ~ span {
-	text-decoration: line-through;
-	color: #C5BDC3;
-}
-
-ul li input[type="checkbox6"]:checked ~ span {
 	text-decoration: line-through;
 	color: #C5BDC3;
 }
 
 div ul li:hover{
-	border-bottom: 2px solid white;
-	border-top: 2px solid white;
+	border-bottom: 3px solid white;
+	border-top: 3px solid white;
 	background-color: #625E77;
 }
 
@@ -119,6 +94,3 @@ li [type="checkbox"]{
 	height: 26px;
 	vertical-align: middle;
 }
-
-
-
