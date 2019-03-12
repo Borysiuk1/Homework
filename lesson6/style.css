@@ -29,15 +29,16 @@ ul{
     width: 60%;
     font-size: 0;
     margin: 0 auto;
-    background-color: white: 
+    background-color: white;
 }
 
 div ul li:active{
     background: white;
+    color: black;
 }
 
 ul:hover >li{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 ul li:hover{
@@ -137,4 +138,3 @@ footer{
     margin-bottom: 43px;
     font-size: 18px; 
 }
-
