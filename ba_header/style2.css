@@ -1,0 +1,90 @@
+.ba-container{
+ 	max-width: 800px;
+ 	margin: 20px  auto;
+}
+
+.top{
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blocks{
+ 	background: gray;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+ 	height: 100px;
+ 	margin-bottom: 20px;
+}
+
+.first{
+	background: orange;
+	float: left;
+  width: 63%;
+  height: 70px;
+  border-radius: 6px;
+  margin-top: 15px;
+  line-height: 70px;
+}
+.second{
+	background: orange;
+	float: right;
+  width: 30%;
+  height: 70px;
+  border-radius: 6px;
+  margin-top: 15px;
+  line-height: 70px;
+}
+.third{
+	background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.threeblocks{
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  
+  text-align: center;
+  justify-content: space-between;
+}
+
+.threeblocks div{
+	width: 800px;
+	background: #2db34a;
+	float: left;
+  width: 30.33%;
+  margin: 0 0% 24px 0%;
+  border-radius: 6px;
+  height: 70px;
+  line-height: 70px;
+  justify-content: space-around;
+}
+.bottom{
+	background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+

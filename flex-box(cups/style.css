@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Miso Regular";
+    src: url(miso.otf);
+}
+@font-face {
+    font-family: "Miso Bold";
+    src: url(miso-bold.ttf);
+}
+@font-face {
+    font-family: "Miso Light";
+    src: url(miso-light.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(bg.png); 
+  height: 100vh;
+}
+.cupset{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 445px;
+  width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+}
+.bronze{
+  width: 360px;
+  height: 445px;
+  background-color: #fff;
+  transition: all 350ms;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 3%;
+  box-shadow: 10px 10px 20px 0 black;
+}
+.bronze:active{
+  border: 5px solid #ff7900;
+  opacity: 0.9;
+  box-shadow: 0 0 30px 10px #ff7900;
+}
+.bronze:hover{
+  height: 540px;
+}
+.prise {
+  color: #02995b;
+  font-family: "Miso Bold";
+  font-size: 50pt;
+  text-align: center;
+}
+.bronzet{
+  font-family: "Miso Regular";
+  font-size: 45pt;
+  text-align: center;
+  color: #333333;
+}
+.bronzebottom{
+  text-align: center;
+  width: 185px;
+  margin: 0px auto 30px auto;
+  color: #414141;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gold{
+  width: 360px;
+  height: 445px;
+  background-color: #fff;
+  transition: all 300ms;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-top: 3%;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px 0 black;
+}
+.gold:active{
+  border: 5px solid gold;
+  opacity: 0.9;
+  box-shadow: 0 0 30px 10px gold;
+}
+.gold:hover{
+  height: 540px;
+}
+.prise2{
+  color: #02995b;
+  font-family: "Miso Bold";
+  font-size: 50pt;
+  text-align: center;
+}
+.goldt{
+  font-family: "Miso Regular";
+  font-size: 45pt;
+  text-align: center;
+  color: #333333;
+}
+.goldbottom{
+  text-align: center;
+  width: 185px;
+  margin: 0px auto 30px auto;
+  color: #414141;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.silver{
+  width: 360px;
+  height: 445px;
+  background-color: #fff;
+  transition: all 300ms;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-top: 3%;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px 0 black;
+}
+.silver:active{
+  border: 5px solid silver;
+  opacity: 0.9;
+  box-shadow: 0 0 30px 10px silver;
+}
+.silver:hover{
+  height: 540px;
+}
+.prise3{
+  color: #02995b;
+  font-family: "Miso Bold";
+  font-size: 50pt;
+  text-align: center;
+}
+.silvert{
+  font-family: "Miso Regular";
+  font-size: 45pt;
+  text-align: center;
+  color: #333333;
+}
+.silverbottom{
+  text-align: center;
+  width: 185px;
+  margin: 0px auto 30px auto;
+  color: #414141;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+

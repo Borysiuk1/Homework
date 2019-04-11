@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: url(unsplash.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+  	display: block;
+  	width: 335px;
+  	min-height: 400px;
+  	border: 2px solid black;
+  	background: white;
+  	box-shadow: 0 0 50px 20px black;
+}
+.top{
+	height: 72px;
+	background: #eee4a9;
+}
+.hy{
+	margin-left: 20px;
+	padding-top: 25px;
+}
+.harold{
+	font-size: 14px;
+  	font-family: "Montserrat";
+  	color: rgb(110, 127, 123);
+  	float: left;
+  	width: 100px;
+  	margin-right: 120px;
+}
+.yyy{
+	font-size: 10px;
+  	font-family: "Montserrat";
+  	color: rgb(166, 162, 141);
+  	text-transform: uppercase;
+}
+.price{
+	font-size: 36px;
+  	font-family: "Montserrat";
+  	color: rgb(99, 117, 112);
+  	margin-top: -8px;
+}
+
+.card{
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(158, 171, 173);
+	margin-left: 25px;
+	margin-top: 45px;
+}
+.entercard{
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(114, 127, 130);
+	margin-left: 20px;
+	height: 45px;
+	width: 290px;
+	line-height: 44px;
+	border: 1px solid #7fcddf;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.date{
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(158, 171, 173);
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+.mon{
+	width: 175px;
+	height: 43px;
+	border: 1px solid rgb(114, 127, 130);
+	margin-left: 20px;
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(114, 127, 130);
+  	float: left;
+  	margin-bottom: 25px; 
+
+}
+.year{
+	width: 95px;
+	height: 43px;
+	border: 1px solid rgb(114, 127, 130);
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(114, 127, 130);
+  	margin-left: 20px;
+  	margin-bottom: 25px; 
+}
+
+.cvv{
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(158, 171, 173);
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+.entercvv{
+	width: 95px;
+	height: 45px;
+	border: 1px solid rgb(114, 127, 130);
+	margin-left: 20px;
+	font-size: 13px;
+  	font-family: "Montserrat";
+  	color: rgb(114, 127, 130);
+  	float: left;
+  	margin-right: 10px;
+  	padding-left: 10px;
+}
+p{
+	font-size: 12px;
+  	font-family: "Montserrat";
+  	color: rgb(158, 171, 173);
+  	line-height: 45px;
+}
+.separator {
+  	background-color: rgb(237, 240, 241);
+  	position: absolute;
+ 	margin-left: 20px;
+ 	margin-top: 30px;
+ 	width: 288px;
+  	height: 1px;
+}
+button{
+	margin-top: 60px;
+	width: 290px;
+	height: 50px;
+	margin-left:20px;
+	background: #26b168; 
+	margin-bottom: 20px;
+}
+.c{
+	font-size: 12px;
+  	font-family: "Montserrat";
+  	color: rgb(158, 171, 173);
+  	text-align: center;
+  	text-decoration: underline;
+}
+a{
+	color: rgb(158, 171, 173);
+}
+
+
+
+
+
+

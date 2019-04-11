@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #e2e7ec;
+	height: 1370px;
+}
+.mainholder{
+	width: 1120px;
+	height: 1100px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	margin-top: 190px;
+}
+.firstholder{
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 20px;
+}
+.n1{
+	width: 740px;
+	height: 540px;
+	background-image: url(car.png);
+}
+.n1 .p1{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgba(129, 129, 129, 0.502);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin-left: 45px;
+  margin-top: 400px;
+  margin-bottom: 20px;
+}
+.n1 .p2{
+  color: white;
+  font-size: 30px;
+  font-family: "HansKendrick";
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-left: 43px;
+  z-index: 2;
+}
+
+.n2{
+	background: white;
+	width: 360px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+}
+.n2 .p3{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+.n2 .p4{
+  font-size: 22px;
+  font-family: "HansKendrick";
+  color: rgb(29, 29, 29);
+  text-transform: uppercase;
+  line-height: 1.364;
+  margin-left: 27px;
+}
+.bottom{
+	margin-top: 45px;
+	margin-left: 27px;
+	height: 55px;
+	width: 55px;
+}
+
+.secondholder{
+	justify-content: space-between;
+	display: flex;
+}
+.b1{
+	background: white;
+	width: 360px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+}
+
+.b2{
+	background: white;
+	width: 360px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+}
+
+.b3{
+	background: white;
+	width: 360px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom1{
+	margin-top: 45px;
+	margin-left: 27px;
+	height: 55px;
+	width: 55px;
+}
+.bottom2{
+	margin-top: 45px;
+	margin-left: 27px;
+	height: 55px;
+	width: 55px;
+}
+.bottom3{
+	margin-top: 45px;
+	margin-left: 27px;
+	height: 55px;
+	width: 55px;
+}
+.p5{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+.p6{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+.p7{
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(129, 129, 129);
+  text-transform: uppercase;
+  line-height: 2.308;
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+
+.rm{
+	font-size: 22px;
+  font-family: "HansKendrick";
+  color: rgb(29, 29, 29);
+  text-transform: uppercase;
+  line-height: 1.364;
+  margin-left: 27px;
+}
+.rm1{
+	font-size: 22px;
+  font-family: "HansKendrick";
+  color: rgb(29, 29, 29);
+  text-transform: uppercase;
+  line-height: 1.364;
+  margin-left: 27px;
+}
+.rm2{
+	font-size: 22px;
+  font-family: "HansKendrick";
+  color: rgb(29, 29, 29);
+  text-transform: uppercase;
+  line-height: 1.364;
+  margin-left: 27px;
+}
+.vector{
+  margin-top: 75px;
+  margin-left: 440px;
+}
+.bottomt{
+  text-align: center;
+  font-size: 13px;
+  font-family: "HansKendrick";
+  color: rgb(153, 165, 176);
+  text-transform: uppercase;
+  margin-top: -25px;
+}

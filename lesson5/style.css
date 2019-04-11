@@ -4,7 +4,7 @@
 	transition: all .1s ease-in;
 }
 body {
-	height: 100vw;
+	height: 100vh;
 	background-color: #3B3F45;
 	font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
 }

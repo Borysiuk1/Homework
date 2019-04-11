@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: url(form3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main{
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+  	display: block;
+  	width: 460px;
+  	min-height: 470px;
+  	border: 2px solid black;
+  	background: white;
+  	box-shadow: 0 0 50px 20px black;
+}
+header{
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+header p span{
+	font-size: 24px;
+  	font-family: "Arial";
+  	color: rgb(27, 28, 29);
+  	font-weight: bold;
+  	margin-left: 10px;
+}
+
+.come{
+	font-size: 13px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	margin-left: 30px;
+  	width: 400px;
+  	margin-bottom: 30px;
+}
+.come a{
+	color: red;
+	text-decoration: none;
+}
+.nameholder{
+	margin-bottom: 15px;
+}
+.enteryourname{
+	width: 195px;
+	height: 40px;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: 14px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	line-height: 40px;
+  	float: left;
+  	margin-left: 30px;
+  	background: #f0f0f0;
+}
+.enteryourname2{
+	width: 195px;
+	height: 40px;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: 14px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	line-height: 40px;
+  	background: #f0f0f0;
+}
+.email{
+	width: 400px;
+	height: 40px;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: 14px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	line-height: 40px;
+  	margin-left: 30px;
+  	background: #f0f0f0;
+  	margin-bottom: 15px;
+}
+.password{
+	width: 400px;
+	height: 40px;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-size: 14px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	line-height: 40px;
+  	margin-left: 30px;
+  	background: #f0f0f0;
+  	margin-bottom: 15px;
+}
+button{
+	height: 50px;
+	width: 400px;
+	background: #ea355a;
+	font-size: 18px;
+  	font-family: "Arial";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	text-align: center;
+  	line-height: 50px;
+  	margin-left: 30px;
+  	border-radius: 5px;
+  	margin-bottom: 25px;
+}
+button:hover{
+	background: #ff512f;
+	cursor: pointer;
+}
+.bottom{
+	font-size: 12px;
+  	font-family: "Arial";
+  	color: rgb(122, 123, 127);
+  	margin-left: 30px; 
+  	width: 400px;
+}
+.bottom a{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+

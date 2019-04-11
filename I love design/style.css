@@ -1,0 +1,132 @@
+body {
+    margin: 0 auto;
+    min-width: 963px;
+}
+header {
+    width: 100%;
+    height: 96vh;
+    background-color: #23232e;
+    padding-top: 50px;
+ 
+
+}
+
+.logo {
+    background-image: url(logo.png) ;
+    width: 134px;
+    height: 134px;
+    margin: 0 auto ;
+
+  }
+
+.i-love-design {
+    text-transform: uppercase;
+    font-family: SegoeUI;
+    width: 100%;
+    height: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 100px auto 0;
+  }
+.Im-glad-that {
+    width: 413px;
+    height: 55px;
+    font-family: SegoeUI;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px auto 0;
+  }
+.icon {
+    background: url(icon.png);
+    width: 45px;
+    height: 45px;
+    margin: 100px auto 0;
+ 
+}
+
+section {
+    background: url(bgpict.png) no-repeat;
+    background-size: 100% 100%;
+    
+    width: 100%;
+    height: 96vh;
+   
+}
+.about-me{
+    margin: 181px auto 0;
+    width: 852px;
+    height: 367px;
+    font-family: SegoeUI;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #464b4f;
+}
+section div:nth-child(2){
+    margin: 119px auto 0;
+    height: 58px;
+    font-family: SegoeUI;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #464b4f;
+}
+ul {
+    margin: 99px auto 0;
+    text-align: center;
+}
+ul li {
+    
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto 10px;
+
+    
+
+}
+li h1{
+    width: 78px;
+    height: 14px;
+    font-family: SegoeUI;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464b4f;
+}
+li p{
+    width: 299px;
+    height: 109px;
+    font-family: SegoeUI;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #888a8b;
+}

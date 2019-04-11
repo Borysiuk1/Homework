@@ -1,38 +1,52 @@
 h1{
 	font-style: italic;
-
   background-color: #f5f5f5;
   text-align: center;
   animation: show 1s forwards;
   font-size: 40px;
 }
-div{
+.desk a{
+	text-decoration: none;
+}
+.logo{
 	text-align: center;
 	margin-top: 20px;
 	animation: show 1s forwards;
+	margin: 0 auto;
+	box-shadow: 0 0 200px 0 green;
+	margin: 20px;
 }
-ul{
+h1{
+	height: 60px;
+	box-shadow: 0 0 50px 0 green;
+	margin: 20px;
+	line-height: 60px;
+}
+.desk div{
+	margin: 0 auto 15px auto;
+	border-radius: 15px;
+	height: 60px;
+	width: 400px;
 	font-style: italic;
-	text-decoration: underline;
 	text-align: center;
-	animation: show 1s forwards;
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 30px;
+	line-height: 60px;
+	border: 3px solid green;
 }
-
-
-@keyframes show {
-    from {
-        opacity: 0;
-        transform: 
-            rotate(45deg)
-            scale(0.5);
-    }
-
-    to {
-        opacity: 1;
-        transform: 
-            rotate(0deg)
-            scale(1);
-    }
+.desk a{
+	color: #04B404;
+	-webkit-text-stroke: 0.5px green;
+}
+.desk div:hover{
+	opacity: 0.5;
+	box-shadow: 0 0 20px 15px green;
+}
+.desk .red a{
+	color: red;
+	-webkit-text-stroke: 0.5px orange;
+}
+.b1{
+	z-index: 2;
+	background: white;
 }

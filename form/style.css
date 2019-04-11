@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #a64d79;
+}
+input{
+	color: grey;
+}
+div{
+	color: grey;
+}
+.main{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+  	display: block;
+  	width: 355px;
+  	min-height: 370px;
+  	border: 2px solid black;
+  	border-radius: 10px;
+  	background: white;
+  	box-shadow: 0 0 50px 20px black;
+}
+.name{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.full{
+	margin-left: 20px;
+	height: 30px;
+	width: 300px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+input{
+	padding-left: 10px;
+}
+.email{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.email2{
+	margin-left: 20px;
+	height: 30px;
+	width: 300px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.number{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+select{
+	margin-left: 20px;
+	height: 30px;
+	width: 40px;
+	margin-top: 4px;
+}
+
+.comments{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+textarea{
+	margin-left: 20px;
+	width: 300px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.bottom{
+	background-color: #648880;
+	width: 100px;
+	line-height: 40px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 20px;
+	color: white;
+}
+.bottom:hover{
+	background: orange;
+}
+
+

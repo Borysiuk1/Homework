@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.page1{
+	background-image: url(klubnika.png);
+	height: 100vh;
+}
+header{
+	height: 150px;
+	border: 1px solid black;
+	margin-bottom: 210px;
+}
+.page1_freshholder{
+	margin-left: 165px;
+	height: 245px;
+	width: 370px;
+}
+.freshholder_title{
+	font-size: 60px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	line-height: 0.7;
+  	text-align: left;
+  	margin-bottom: 30px;
+}
+.freshholder_text{
+	font-size: 17px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	line-height: 1.588;
+  	margin-bottom: 30px;
+}
+.freshholder-button{
+	height: 60px;
+	width: 200px;
+	background: #ff6033;
+	font-size: 20px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	text-transform: uppercase;
+  	line-height: 60px;
+  	text-align: center;
+  	box-shadow: 3px 3px 5px 1px black;
+  	cursor: pointer;
+}
+.freshholder-button:active{
+	background: #ce2754;
+}
+
+.page2{
+	background-image: url(bg2.png); 
+	height: 700px;
+	display: flex;
+}
+.page2_photo{
+  margin-left: 165px;
+  margin-top: 20px;
+  width: 670px;
+  height: 660px;
+  margin-right: 110px;
+}
+.page2_aboutusholder{
+	width: 500px;
+	height: 290px;
+	margin-top: 180px;
+}
+.page2_aboutusholder_title{
+	font-size: 90px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 0.7;
+  	margin-bottom: 30px;
+}
+.page2_aboutusholder_text{
+	margin-bottom: 25px;
+}
+.page2_aboutusholder p{
+	font-size: 17px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	line-height: 1.588;
+}
+
+
+.page3{
+	height: 790px;
+	background-image: url(sky.png);
+	display: flex;
+}
+.page3_itemsholder{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 400px;
+	height: 460px;
+	border: 1px solid black;
+	margin-top: 180px;
+	margin-left: 260px;
+}
+.page3_itemsholder div{
+	background: white;
+	width: 400px;
+	height: 100px;
+	box-shadow: 3px 3px 5px 1px black;
+	display: flex;
+	flex-direction: column;
+	
+}
+.page3_itemsholder_text{
+	width: 300px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	font-weight: bold;
+}
+.page3_tomatoes{
+	width: 462px;
+  	height: 527px;
+  	margin-left: 300px;
+  	margin-top: 100px;
+}
+.page3_textinsidetomatoes{
+	font-size: 90px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 0.3;
+  	margin-left: -500px;
+  	margin-top: 335px;
+}
+
+.page4{
+	height: 1535px;
+	background-image: url(yellow.png);
+	display: flex;
+	flex-direction: column;
+}
+.page4_header{
+	text-align: center;
+	margin-top: 100px;
+  	width: 100%;
+  	display: flex;
+	flex-direction: column;
+	margin-bottom: 45px;
+}
+.page4_title{
+	font-size: 90px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	font-weight: bold;
+  	margin-bottom: 45px;
+}
+.page4_text{
+	width: 100%;
+	font-size: 17px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	line-height: 1.588;
+}
+.page4_images{
+	width: 1200px;
+	margin: 0 auto;
+  	display: flex;
+  	justify-content: space-between;
+  	flex-direction: column;
+  	height: 995px;
+}
+.page4_images_top{
+	display: flex;
+	width: 1200px;
+	height: 560px;
+  	justify-content: space-between;
+  	margin-bottom: 50px; 
+}
+.page4_images_persik{
+	width: 800px;
+  	height: 560px;
+}
+.page4_images_berries{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 550px;
+	width: 370px;
+}
+.page4_images_berries img{
+	width: 370px;
+  	height: 260px;
+}
+.page4_images_bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	width: 1200px;
+}
+.page4_button{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.page4_button_text{
+	width: 200px;
+	height: 55px;
+	background: #5585a2;
+	font-size: 20px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	line-height: 55px;
+  	text-align: center;
+  	box-shadow: 3px 3px 5px 1px black;
+  	cursor: pointer;
+}
+.page4_button_text:active{
+	background: #ed7001;
+}
+
+.page5{
+	background-image: url(blackberry.png);
+	height: 500px;
+	display: flex;
+	margin-bottom: 30px;
+	flex-direction: column;
+}
+.page5_text{
+	height: 107px;
+	width: 545px;
+	margin-left: 165px;
+	margin-top: 144px;
+	margin-bottom: 25px;
+}
+.page5_text_title{
+	line-height: 0.8;
+	font-size: 40px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+}
+.page5_text_bottom{
+	font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  line-height: 1.588;
+}
+.page5_subscribtion{
+	margin-left: 165px;
+	display: flex;
+	width: 779px;
+	justify-content: space-between;
+}
+.page5_subscribtion_email{
+	width: 570px;
+	height: 55px;
+	padding-left: 13px; 
+	border: 1px solid black;
+	font-size: 15px;
+  	font-family: "Raleway";
+  	color: rgba(38, 38, 38, 0.502);
+  	line-height: 1.8;
+}
+.page5_subscribtion_button{
+	width: 170px;
+	height: 55px;
+	line-height: 55px;
+	background: #96b92c;
+	text-align: center;
+	font-size: 20px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 5px 1px black;
+  cursor: pointer;
+}
+.page5_subscribtion_button:active{
+	background: #1f2437;
+}
+
+.page6{
+	background-image: url(purpule.png);
+	height: 865px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
