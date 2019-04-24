@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url(Pacifico.ttf);
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,10 +11,38 @@
 	background-image: url(klubnika.png);
 	height: 100vh;
 }
-header{
+.page1_header{
 	height: 150px;
-	border: 1px solid black;
 	margin-bottom: 210px;
+	display: flex;
+}
+.page1_header_logo{
+	margin-top: 0px;
+	font-size: 50px;
+  	font-family: "Pacifico";
+  	color: rgb(38, 38, 38);
+ 	width: 450px;
+ 	text-align: center;
+ 	height: 150px;
+ 	line-height: 150px;
+}
+.page1_header_menu{
+	height: 150px;
+	width: 585px;
+	margin-left: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+.page1_header_menu div{
+	line-height: 150px;
+	font-size: 16px;
+  	font-family: "Raleway";
+  	color: rgb(38, 38, 38);
+  	font-weight: bold;
+  	cursor: pointer;
+}
+.page1_header_menu div:active{
+	text-decoration: underline;
 }
 .page1_freshholder{
 	margin-left: 165px;
@@ -54,7 +87,7 @@ header{
 	display: flex;
 }
 .page2_photo{
-  margin-left: 165px;
+  margin-left: 5%;
   margin-top: 20px;
   width: 670px;
   height: 660px;
@@ -97,7 +130,7 @@ header{
 	height: 460px;
 	border: 1px solid black;
 	margin-top: 180px;
-	margin-left: 260px;
+	margin-left: 10%;
 }
 .page3_itemsholder div{
 	background: white;
@@ -279,14 +312,141 @@ header{
 
 .page6{
 	background-image: url(purpule.png);
-	height: 865px;
+	height: 765px;
 	display: flex;
 	flex-direction: column;
+	padding-top: 100px;
+}
+.page6_text{
+	margin-bottom: 50px;
+}
+.page6_text_header{
+	margin-bottom: 45px;
+	text-align: center;
+	font-size: 90px;
+  	font-family: "Raleway";
+ 	color: rgb(255, 255, 255);
+  	font-weight: bold;
+  	line-height: 0.278;
+}
+.page6_text_bottom{
+	font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  line-height: 1.471;
+  text-align: center;
+}
+.page6_imagesholder{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 1170px;
+	height: 310px;
+}
+.page6_buttonholder{
+	margin: 0 auto;
+}
+.page6_buttonholder_button{
+	text-align: center;
+	width: 200px;
+	line-height: 55px;
+	height: 55px;
+	background: #f72b3b;
+	font-size: 20px;
+  	font-family: "Raleway";
+  	color: rgb(255, 255, 255);
+  	margin-top: 55px;
+  	box-shadow: 3px 3px 5px 1px black;
+}
+.page6_buttonholder_button:active{
+	background: #68a10f;
 }
 
+.page7{
+	height: 825px;
+	display: flex;
+	flex-direction: column;
+	background-image: url(sky2.png);
+	background-size: 100%;
+}
+.page7_header_title{
+	margin-top: 85px;
+	text-align: center;
+	font-size: 90px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.page7_header_text{
+	font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  line-height: 1.471;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.page7_holder{
+	display: flex;
+}
+.page7_holder_form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 500px;
+	height: 445px;
+	margin-left: 165px;
+	margin-right: 170px;
+}
+.page7_holder_form input{
+	height: 50px;
+	background-color: rgb(0, 196, 196);
+  	opacity: 0.502;
+  	padding-left: 15px;
+  	line-height: 50px;
+  	color: white;
+}
+textarea{
+	height: 250px;
+	background-color: rgb(0, 196, 196);
+  	opacity: 0.502;
+  	padding-left: 15px;
+  	color: white;
+  	padding-top: 10px;
+}
+.page7_holder_info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 175px;
+	width: 330px;
+}
+.page7_holder_info div span{
+	font-size: 17px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+}
 
-
-
-
+.page8{
+	display: flex;
+	height: 90px;
+	background: #262626;
+	justify-content: space-around;
+}
+.page8 p{
+	line-height: 90px;
+	color: rgb(185, 185, 185);
+	font-size: 16px;
+  	font-family: "Raleway";
+}
+.page8_logo{
+	height: 30px;
+	width: 65px;
+	margin-top: 27px;
+}
+p span{
+	color: #ff2b58;
+}
 
 
