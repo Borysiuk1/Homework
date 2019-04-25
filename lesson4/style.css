@@ -1,24 +1,36 @@
 .mainpage {
-  background: silver; }
-  .mainpage_header {
-    font-style: italic;
-    background-color: #f5f5f5;
-    text-align: center; }
-  .mainpage_mypages {
-    font-style: italic;
-    background-color: #f5f5f5;
-    width: 290px; }
-  .mainpage_links {
-    ont-style: italic;
-    background-color: #f5f5f5;
-    list-style-type: none; }
-  .mainpage_photo {
-    text-align: center;
-    margin-top: 20px;
-    -webkit-animation: show 1s forwards;
-    animation: show 1s forwards; }
-  .mainpage_page_text {
-    margin-left: 10px;
-    font-style: italic;
-    text-decoration: underline;
-    text-align: center; }
+  background: silver;
+}
+
+.mainpage_header {
+  font-style: italic;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.mainpage_mypages {
+  font-style: italic;
+  background-color: #f5f5f5;
+  width: 290px;
+}
+
+.mainpage_links {
+  ont-style: italic;
+  background-color: #f5f5f5;
+  list-style-type: none;
+}
+
+.mainpage_photo {
+  text-align: center;
+  margin-top: 20px;
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards;
+}
+
+.mainpage_page_text {
+  margin-left: 10px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
