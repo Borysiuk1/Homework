@@ -74,6 +74,7 @@
   line-height: 60px;
   height: 60px;
   width: 250px;
+  cursor: pointer;
 }
 
 .page1 .page1_searchholder .searchholder_button .button_img {
@@ -92,13 +93,15 @@
   letter-spacing: 0.2em;
 }
 
+.page1 .page1_bottom:hover {
+  text-decoration: underline;
+}
+
 .page1 .page1_scroll {
   width: 15px;
   height: 9px;
   margin: 0 auto;
   cursor: pointer;
-  -webkit-animation: show 2s forwards;
-          animation: show 2s forwards;
 }
 
 .page2 {
@@ -133,6 +136,11 @@
 .page2 .page2_holder .holder_item {
   color: white;
   text-decoration: none;
+}
+
+.page2 .page2_holder .holder_item:hover {
+  text-decoration: underline;
+  color: #443d3c;
 }
 
 .page3 {
@@ -517,16 +525,14 @@
   width: 170px;
   height: 20px;
   margin: 0 auto;
+  color: white;
 }
 
-.page8 .page8_bottomholder .bottomholder_item {
-  height: 15px;
-  width: 17px;
+.page8 .page8_bottomholder .fab {
+  cursor: pointer;
 }
 
-.page8 .page8_bottomholder .bottomholder_fc {
-  width: 15px;
-  height: 20px;
-  margin-top: -5px;
+.page8 .page8_bottomholder .fab:hover {
+  color: #5474fd;
 }
 /*# sourceMappingURL=style.css.map */
