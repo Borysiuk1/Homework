@@ -97,6 +97,8 @@
   height: 9px;
   margin: 0 auto;
   cursor: pointer;
+  -webkit-animation: show 2s forwards;
+          animation: show 2s forwards;
 }
 
 .page2 {
@@ -143,7 +145,7 @@
 }
 
 .page3 .page3_part1 {
-  width: 540px;
+  width: 550px;
   height: 360px;
   margin-top: 200px;
   margin-left: 15%;
@@ -226,14 +228,14 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background: #333333;
-  height: 290px;
+  height: 337px;
 }
 
 .page4 .page4_img {
   margin: 0 auto;
   margin-top: 45px;
-  height: 114px;
-  width: 823px;
+  height: 175x;
+  width: 980px;
 }
 
 .page4 .page4_textholder {
