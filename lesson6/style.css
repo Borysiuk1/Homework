@@ -11,12 +11,13 @@ body {
     background: #3399cc;
     font: 200 16px "Lucida Sans Unicode", "Lucida Grande", san-serif;
     height: 100vh;
+    background-size: cover;
  }
 
 header{
     color: white;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 30px;
 }
@@ -133,7 +134,7 @@ i{
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
     text-align: center;
     margin-bottom: 43px;
