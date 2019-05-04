@@ -1,2 +1,5 @@
 .vscode
-lesson 4/index.html
+/node_modules
+/package.json
+/package-lock.json
+
