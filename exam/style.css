@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html, body{
+  overflow-x:hidden;
+  }
+
 .page1 {
   height: 100vh;
   background: url(bg1.png);
@@ -476,9 +480,7 @@
   vertical-align: super;
 }
 
-.page7 .page7_review .review_text .text_info .info_txt .txt_span {
-  font-size: 36px;
-  font-family: "FontAwesome";
+.page7 .page7_review .review_text .text_info .info_txt .fas {
   color: #5474fd;
   padding-right: 5px;
 }
