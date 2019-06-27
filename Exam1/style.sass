@@ -1,0 +1,366 @@
+@import url(https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700);
+//********VARIABLES
+$josefin: 'Josefin Sans', sans-serif;
+$aleo: 'Aleo', serif;
+*
+    margin: 0
+    padding: 0
+
+.page1 
+    height: 100vh
+    background: url(bg1.png)
+    background-repeat: no-repeat 
+    background-size: cover
+    display: flex
+    flex-direction: column
+    .page1_head
+        margin-top: 235px
+        text-align: center 
+        font-size: 48px
+        font-family: $josefin
+        color: rgb(255, 255, 255)
+        font-weight: bold
+        text-transform: uppercase
+        margin-bottom: 5px
+    .page1_textb
+        font-size: 22px
+        font-family: $josefin
+        color: rgb(255, 255, 255)
+        line-height: 1.182
+        text-align: center
+        letter-spacing: 0.3em
+        margin-bottom: 45px
+    .page1_searchholder
+        height: 60px
+        width: 650px
+        border: 1px solid white
+        margin: 0 auto
+        display: flex
+        .searchholder_search
+            height: 57px
+            line-height: 57px
+            width: 500px
+            background: white
+            text-align: center
+            letter-spacing: 0.2em
+            font-size: 14px
+            font-family: $josefin
+            color: rgb(153, 153, 153)
+        .searchholder_button
+            background: #5474fd
+            display: flex
+            justify-content: space-around
+            font-size: 14px
+            font-family: "Aleo"
+            color: rgb(255, 255, 255)
+            line-height: 60px
+            height: 60px
+            width: 250px
+            cursor: pointer
+            .button_img
+                width: 20px
+                height: 22px
+                margin-top: 9%
+    .page1_bottom
+        text-align: center
+        margin-top: 120px
+        font-size: 14px
+        font-family: $josefin
+        color: rgb(255, 255, 255)
+        margin-bottom: 15px
+        letter-spacing: 0.2em
+    .page1_bottom:hover
+        text-decoration: underline
+    .page1_scroll
+        width: 15px
+        height: 9px
+        margin: 0 auto
+        cursor: pointer
+
+.page2
+    display: flex 
+    height: 80px
+    background: #5474fd
+    .page2--left
+    padding-left: 15%
+    line-height: 80px
+    font-size: 24px
+    font-family: $josefin
+    color: rgb(255, 255, 255)
+    font-weight: bold 
+    .page2_holder
+        width: 540px
+        height: 80px
+        display: flex 
+        justify-content: space-between
+        font-size: 14px
+        font-family: "Aleo"
+        color: rgb(255, 255, 255)
+        margin-left: 25%
+        .holder_item
+            color: white
+            text-decoration: none
+        .holder_item:hover
+            text-decoration: underline
+            color: #443d3c
+
+        
+.page3
+    height: 685px
+    background-image: url(bg3.png)
+    background-size: cover
+    display: flex
+    .page3_part1
+        width: 550px
+        height: 360px
+        margin-top: 200px
+        margin-left: 15%
+        .part1_header
+            font-size: 36px
+            font-family: $aleo
+            color: rgb(255, 255, 255)
+            color: white
+            margin-bottom: 55px
+        .part1_text
+            font-size: 16px
+            font-family: $josefin
+            color: rgb(232, 232, 232)
+            letter-spacing: 0.1em
+            .text_1
+                margin-bottom: 50px
+            .text_2
+                margin-bottom: 63px
+        .part1_button
+            width: 225px
+            height: 60px
+            line-height: 60px
+            background-image: url(button.png)
+            text-align: center 
+            font-size: 16px
+            font-family: $aleo
+            color: rgb(255, 255, 255)
+            text-transform: uppercase
+            cursor: pointer
+        .part1_button:active
+            background: #496bfe
+    .part1_imgholder
+        margin-top: 120px
+        display: flex 
+        flex-direction: column
+        margin-left: 65px
+        height: 445px
+        width: 480px
+        .imgholder_img1
+            height: 220px
+            width: 350px
+            margin-bottom: 5px
+            float: left
+        .imgholder_img2
+            height: 220px
+            width: 350px
+            margin-left: 120px
+            float: right
+
+.page4
+    display: flex
+    flex-direction: column 
+    background: #333333
+    height: 337px
+    .page4_img
+        margin: 0 auto
+        margin-top: 45px
+        height: 175x
+        width: 980px
+    .page4_textholder
+        width: 980px
+        display: flex
+        justify-content: space-between
+        height: 35px
+        margin: 0 auto
+        margin-top: 25px
+        .textholder_item
+            font-size: 36px
+            font-family: $aleo
+            color: rgb(232, 232, 232)
+
+.page5
+    height: 100vh
+    background-repeat: no-repeat
+    display: flex
+    background-image: url(bg4.png)
+    background-size: cover
+    .page5_info
+        background: rgba(0, 0, 0, 0.7)
+        display: flex
+        flex-direction: column
+        margin-top: 10%
+        margin-left: 20%
+        height: 365px
+        width: 535px
+        .info_text
+            margin-left: 30px
+            .text_header
+                margin-top: 50px
+                font-size: 20px
+                font-family: $josefin
+                color: rgb(232, 232, 232)
+                margin-bottom: 30px
+            .text_curortname
+                font-size: 20px
+                font-family: $josefin
+                color: rgb(255, 255, 255)
+                margin-bottom: 30px
+            .text_about
+                font-size: 16px
+                font-family: $josefin
+                color: rgb(232, 232, 232)
+                margin-bottom: 50px
+            .text_button
+                width: 225px
+                height: 60px
+                line-height: 60px
+                background-image: url(button.png)
+                text-align: center 
+                font-size: 16px
+                font-family: $aleo
+                color: rgb(255, 255, 255)
+                text-transform: uppercase
+                cursor: pointer
+            .text_button:active
+                background: #496bfe
+
+.page6
+    height: 100vh
+    display: flex
+    background-image: url(bg6.png)
+    background-size: cover
+    background-repeat: no-repeat
+    .page6_info
+        background: rgba(0, 0, 0, 0.7)
+        display: flex
+        flex-direction: column
+        margin-top: 10%
+        margin-left: 50%
+        height: 365px
+        width: 535px
+        .info_text
+            margin-left: 30px
+            .text_header
+                margin-top: 50px
+                font-size: 20px
+                font-family: $josefin
+                color: rgb(232, 232, 232)
+                margin-bottom: 30px
+            .text_curortname
+                font-size: 20px
+                font-family: $josefin
+                color: rgb(255, 255, 255)
+                margin-bottom: 30px
+            .text_about
+                font-size: 16px
+                font-family: $josefin
+                color: rgb(232, 232, 232)
+                margin-bottom: 50px
+            .text_button
+                width: 225px
+                height: 60px
+                line-height: 60px
+                background-image: url(button.png)
+                text-align: center 
+                font-size: 16px
+                font-family: $aleo
+                color: rgb(255, 255, 255)
+                text-transform: uppercase
+                cursor: pointer
+            .text_button:active
+                background: #496bfe
+
+.page7
+    height: 100vh
+    display: flex
+    flex-direction: column
+    background-image: url(bg7.png)
+    background-size: cover
+    background-repeat: no-repeat 
+    position: relative
+    .page7_header
+        text-align: center
+        font-size: 36px
+        font-family: $aleo
+        color: rgb(255, 255, 255)
+        margin-top: 115px
+    .page7_review
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        display: flex
+        width: 1100px
+        height: 280px
+        border: 1px solid white
+        .review_text
+            width: 665px
+            background: #333333
+            display: flex
+            flex-direction: column
+            .text_info
+                margin-left: 60px
+                margin-top: 50px
+                display: flex
+                flex-direction: column
+                .info_header
+                    margin-bottom: 30px
+                    font-size: 20px
+                    font-family: $josefin
+                    color: rgb(254, 254, 254)
+                .info_txt 
+                    font-size: 16px
+                    font-family: "FontAwesome"
+                    color: white
+                    vertical-align: super
+                    .fas
+                        color: #5474fd
+                        padding-right: 5px
+                   
+.page8
+    display: flex 
+    flex-direction: column
+    height: 265px
+    background: #232323
+    .page8_header
+        margin-top: 120px
+        text-align: center
+        font-size: 24px
+        font-family: $josefin
+        color: rgb(255, 255, 255)
+        letter-spacing: .14em
+        margin-bottom: 5px
+    .page8_text
+        font-size: 16px
+        font-family: $josefin
+        color: rgb(255, 255, 255)
+        line-height: 1.625
+        text-align: center
+        letter-spacing: 0.1
+        margin-bottom: 30px
+    .page8_bottomholder
+        display: flex
+        justify-content: space-between
+        width: 170px
+        height: 20px
+        margin: 0 auto
+        color: white
+        .fab
+            cursor: pointer
+        .fab:hover
+            color: #5474fd
+
+
+                    
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.grid-item {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    background-color: red;
+    margin: 10px;
+    left: -50%;
+    top: -50%;
+    transform: translate(50%, 50%)
+  }
+     
+.grid-item--width2 { width: 200x; }
+.grid-item--height2 { height: 200px; }
