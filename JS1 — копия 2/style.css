@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.holder{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 420px;
+    width: 600px;
+}
+.inputholder{
+    height: 50px;
+    line-height: 50px;
+    width: 600px;
+    display: flex;
+}
+.inp{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    width: 400px;
+    color: black;
+    font-size: 20px;
+    left: 100px;
+}
+.inputholder_button{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: red;
+    color: white;
+    font-size: 24px;
+}
+.list_holder{
+    max-width: 700px;
+    min-height: 70px;
+    padding: 20px;
+    padding-left: 30px;
+    box-shadow: 0 8px 30px -15px #000;
+    border-radius: 15px;
+}
+.counter{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}

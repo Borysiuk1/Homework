@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg1.png);
+    background-size: cover;
+}
+.main_holder{
+    position: absolute;
+    width: 595px;
+    height: 540px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+}
+.holder_header{
+    display: flex;
+    justify-content: space-around;
+    height: 115px;
+    background: #2b3040;
+}
+.header_item{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    background: grey;
+}
+.header_item:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+.active{
+    background: green;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.holder_content {
+    position: relative;
+    height: 423px;
+    width: 100%;
+    background: #212534;
+}
+.content_1,
+.content_2,
+.content_3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    border: 1px solid white;
+    font-size: 40px;
+}
+.content_2{
+    background:green;
+}
+.content_3{
+    background: red;
+}
+
+.holder1{
+    margin-left: 45px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.holder1_image{
+    width: 160px;
+    height: 230px;
+}
+
+.holder2{
+    margin-left: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.holder2_header{
+    display: flex;
+}
+.header_text{
+    display: flex;
+    flex-direction: column;
+}
+.text_name{
+    font-size: 32px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+}
+.text_release{
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(253, 253, 253);
+    margin-top: 10px;
+}
+.score{
+    margin-left: 70px;
+    height: 72px;
+    width: 72px;
+}
+.holder2_info{
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(183, 186, 205);
+    line-height: 1.571;
+    margin-top: 40px;
+}

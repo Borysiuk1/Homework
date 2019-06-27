@@ -1,0 +1,588 @@
+@font-face 
+  font-family: 'gothamBook'
+  src: url(fonts/GothamBook.ttf)
+
+
+@font-face 
+  font-family: 'gothamBold'
+  src: url(fonts/Gotham-Bold.otf)
+
+@font-face 
+  font-family: 'gothamMedium'
+  src: url(fonts/GothamMedium_1.ttf)
+
+
+@font-face 
+  font-family: 'gothamLight'
+  src: url(fonts/Gotham-Light.otf)
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap')
+
+$gothamBook: "gothamBook"
+$gothamBold: "gothamBold"
+$gothamMedium: "gothamMedium"
+$gothamLight: "gothamLight"
+$Gotham: "gothamMedium"
+$OpenSans: "Open Sans", sans-serif
+
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    scroll-behavior: smooth
+
+html
+    scroll-behavior: smooth
+
+.slider1
+    height: 100vh
+    width: 100%
+    position: absolute
+    z-index: 1
+    .slide1
+        background-image: url(img/page1.png)
+    .slider1_item
+        height: 100vh
+        position: relative
+        .page1_text
+            width: 970px
+            height: 115px
+            text-align: center
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            position: absolute
+        .text_top
+            font-size: 80px
+            font-family: $Gotham
+            color: rgb(255, 255, 255)
+            font-weight: bold
+            text-transform: uppercase
+            line-height: 0.700
+            margin-bottom: 40px
+            letter-spacing: 0.05em
+        .text_bottom
+            font-size: 18px
+            font-family: $Gotham
+            color: rgb(255, 255, 255)
+            text-transform: uppercase
+            line-height: 1.222
+            letter-spacing: 0.3em
+    .slide2
+        background: #000
+    
+    .slide3
+        background: green
+    .slide4
+        background: red
+    .slide5
+        background: yellow
+
+.page1
+    height: 100vh
+    //background-image: url(img/page1.png)
+    display: flex
+    flex-direction: column
+    background-repeat: no-repeat
+    background-size: cover
+    .page1_header
+        height: 150px
+        display: flex
+        margin-bottom: 180px
+        z-index: 5
+        .headContainer
+            width: 1180px
+            margin: 0 auto
+            display: flex
+            .headContainer_logo
+                height: 50px
+                width: 235px
+                margin-top: 50px
+            .downContainer
+                width: 700px
+                margin-left: 50px
+                display: flex
+                justify-content: space-around
+                height: 149px
+                line-height: 150px
+                li
+                    list-style-type: circle
+                    font-size: 14px
+                    font-family: "gothamLight"
+                    color: rgb(255, 255, 255)
+                    cursor: pointer
+                li:hover 
+                    list-style-type: disc
+                    text-decoration: underline
+            .socialMedia
+                display: flex
+                justify-content: space-between
+                width: 160px
+                margin: 0 auto
+                align-items: center
+                .b
+                    font-size: 16px
+                    color: rgb(255, 255, 255)
+                    width: 40px
+                    height: 40px
+                    border-radius: 50%
+                    border: 1px solid white
+                    text-align: center
+                    line-height: 40px
+                    cursor: pointer
+                .b:hover
+                    width: 50px
+                    height: 50px
+                    line-height: 50px
+    .page1_text
+        width: 970px
+        height: 115px
+        text-align: center
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        position: absolute
+        .text_top
+            font-size: 80px
+            font-family: $Gotham
+            color: rgb(255, 255, 255)
+            font-weight: bold
+            text-transform: uppercase
+            line-height: 0.700
+            margin-bottom: 40px
+            letter-spacing: 0.05em
+        .text_bottom
+            font-size: 18px
+            font-family: $Gotham
+            color: rgb(255, 255, 255)
+            text-transform: uppercase
+            line-height: 1.222
+            letter-spacing: 0.3em
+    .fas
+        margin: 0 auto
+        margin-top: 25%
+        font-size: 16px
+        width: 40px
+        height: 40px
+        border-radius: 50%
+        border: 1px solid white
+        line-height: 40px
+        color: white
+
+.page2
+    height: 1633px
+    .container
+        width: 1170px
+        height: 1633px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        .container_line
+            height: 1px
+            width: 100px
+            margin: 0 auto
+            margin-top: 100px
+            border: 1px solid black
+            margin-bottom: 40px
+        .container_header
+            margin-top: 35px
+            font-size: 44px
+            font-family: 
+            color: rgb(44, 64, 88)
+            font-weight: bold
+            text-transform: uppercase
+            text-align: center
+            line-height: 0.5
+            margin-bottom: 100px
+
+        .container_info1
+            height: 540px
+            display: flex
+            margin-bottom: 140px
+            .info1_img
+                width: 630px
+                display: flex
+                font-display: column
+                margin-right: 70px
+                .blue
+                    margin-left: -215px
+            .info1_text
+                margin-top: 125px
+                height: 415px
+                width: 470px
+                .info1_top
+                    font-size: 22px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                    text-transform: uppercase
+                .info1_header
+                    font-size: 22px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                    text-transform: uppercase
+                    margin-bottom: 40px
+                .info1_inf
+                    font-size: 18px
+                    font-family: $OpenSans
+                    color: rgb(75, 85, 98)
+                    margin-bottom: 40px
+                .info1_button
+                    border-width: 1px
+                    border-color: rgb(44, 64, 88)
+                    border-style: solid
+                    width: 188px
+                    height: 48px  
+                    line-height: 48px
+                    text-align: center
+                    margin-bottom: 55px
+                    font-size: 14px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                .info1_button:active
+                    background: rgb(44, 64, 88)
+                    color: white
+                .info1_bottom
+                    font-size: 18px
+                    font-family: "FontAwesome"
+                    color: rgb(44, 64, 88)
+
+        .container_info2
+            height: 540px
+            display: flex
+            margin-bottom: 140px
+            .info2_text
+                margin-top: 125px
+                height: 415px
+                width: 470px
+                margin-right: 70px
+                .info2_top
+                    font-size: 22px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                    text-transform: uppercase
+                .info2_header
+                    font-size: 22px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                    text-transform: uppercase
+                    margin-bottom: 40px
+                .info2_inf
+                    font-size: 18px
+                    font-family: $OpenSans
+                    color: rgb(75, 85, 98)
+                    margin-bottom: 40px
+                .info2_button
+                    border-width: 1px
+                    border-color: rgb(44, 64, 88)
+                    border-style: solid
+                    width: 188px
+                    height: 48px  
+                    line-height: 48px
+                    text-align: center
+                    margin-bottom: 55px
+                    font-size: 14px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                .info2_button:active
+                    background: rgb(44, 64, 88)
+                    color: white
+                .info2_bottom
+                    font-size: 18px
+                    font-family: "FontAwesome"
+                    color: rgb(44, 64, 88)
+                    
+            .info2_img
+                width: 630px
+                height: 539px
+                display: flex
+                font-display: column
+                violett
+                    
+
+.page3
+    height: 1035px
+    width: 100%
+    display: flex
+    flex-direction: column
+    background-image: url(img/page3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    .page3_line3
+        height: 0.5px
+        width: 100px
+        margin: 0 auto
+        border: 1px solid white
+        margin-bottom: 40px
+        margin-top: 130px
+    .page3_top
+        font-size: 44px
+        font-family: 
+        color: white
+        text-transform: uppercase
+        text-align: center
+        margin-bottom: 100px
+    .news_gallery
+        height: 515px
+        width: 1170px
+        margin: 0 auto
+        .gallery_item
+            height: 515px
+            .item_inner
+                width: 370px
+                background: white
+                height: 515px
+                margin: 0 auto
+                .inner_head
+                    margin-top: 30px
+                    font-size: 22px
+                    font-family: 
+                    color: rgb(44, 64, 88)
+                    font-weight: bold
+                    text-transform: uppercase
+                    margin-bottom: 20px
+                    margin-left: 20px
+                .inner_info
+                    font-size: 18px
+                    font-family: $OpenSans
+                    color: rgb(75, 85, 98)
+                    margin-left: 20px
+                    margin-bottom: 40px
+                .photo
+                    margin-left: 20px
+                    
+        .slick-dots
+            list-style: none
+            display: flex
+            width: 300px
+            margin: 0 auto
+            justify-content: space-around
+            padding-top: 60px
+            position: absolute
+            top: 510px
+            left: 50%
+            transform: translateX(-50%)
+            li 
+                width: 9px
+                height: 9px
+                border: 1px solid #fff
+                border-radius: 50%
+            li.slick-active
+                background-color: #fff
+        .slick-dots li button
+            display: none
+
+.page4
+    height: 1000px
+    display: flex
+    .page4_container4
+        display: flex
+        width: 1170px
+        height: 725px
+        margin: 0 auto
+        margin-top: 139px
+        display: flex
+        flex-direction: column
+        .container4_line4
+            height: 1px
+            width: 100px
+            margin: 0 auto
+            border: 1px solid black
+            margin-bottom: 40px
+        .container4_top
+            font-size: 44px
+            font-family: 
+            color: rgb(44, 64, 88)
+            text-transform: uppercase
+            text-align: center
+            margin-bottom: 100px
+        .gallery
+            height: 435px
+            width: 1163px
+            display: flex
+            justify-content: space-between
+            margin: 0 auto
+            margin-bottom: 60px
+            .gallery_left
+                height: 435px
+            .gallery_right
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                width: 575px
+                height: 435px
+                .right_top
+                    display: flex
+                    justify-content: space-between
+                    width: 575px
+                .right_bottom
+                    display: flex
+                    justify-content: space-between
+                    width: 575px
+        .container4_button
+                height: 50px
+                line-height: 50px
+                width: 190px
+                text-align: center
+                border: 1px solid black
+                margin: 0 auto
+                font-size: 14px
+                font-family:
+                color: rgb(44, 64, 88)
+        .container4_button:active
+                background: rgb(44, 64, 88)
+                color: white
+
+.page5
+    height: 100vh
+
+.page6
+    height: 375px
+    background-image: url(img/page6.png)
+    position: relative
+    background-size: cover
+    background-repeat: no-repeat
+    .holder6
+        position: absolute
+        height: 570px
+        width: 770px
+        margin-top: -130px
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        display: flex
+        flex-direction: column
+        .registration
+            position: absolute
+            height: 450px
+            width: 770px
+            background: white
+            display: flex
+            flex-direction: column
+            .container_line--r
+                height: 0.5px
+                width: 100px
+                margin: 0 auto
+                margin-top: 60px
+                border: 1px solid black
+                margin-bottom: 40px
+            .registration_header
+                font-size: 44px
+                font-family: 
+                color: rgb(44, 64, 88)
+                text-transform: uppercase
+                text-align: center
+                margin-bottom: 45px
+            .login
+                display: flex
+                height: 200px
+                width: 550px
+                margin: 0 auto
+                .login_contacts
+                    display: flex
+                    flex-direction: column
+                    height: 200px
+                    width: 285px
+                    justify-content: space-between
+                    .contacts_item
+                        font-size: 18px
+                        font-family: "FontAwesome"
+                        color: rgb(126, 90, 255)
+                        span 
+                            color: #2c4058
+                            font-size: 18px
+                .login_form
+                    display: flex
+                    flex-direction: column
+                    height: 200px
+                    justify-content: space-between
+                    .form_email
+                        width: 290px
+                        height: 40px
+                        border: none
+                        border-bottom: 1px solid #d5d9de
+                        color: #2c4058
+                        font-size: 18px
+                        color: rgb(44, 64, 88)
+                        margin-top: -10px
+                    .form_email:focus
+                        border-bottom-color: black
+                        outline: none
+                        color: black
+                    .form_email::placeholder
+                        color: #d5d9de
+                    .form_button
+                        margin-left: 150px
+                        background: white
+                        width: 140px
+                        height: 50px
+                        line-height: 50px
+                        border: 1px solid black
+                        font-size: 14px
+                        font-family:
+                        color: black
+                        text-align: center
+                    .form_button:active
+                        background: #7e5aff
+                        color: white
+
+
+
+        .footer 
+            margin-top: 300px
+            position: absolute
+            display: flex
+            width: 770px
+            height: 60px
+            margin: 0 auto
+            margin-top: 500px
+            justify-content: space-between
+            .footer_logo
+                margin-top: 5px
+                height: 50px
+                width: 235px
+            .socialMedia2
+                display: flex
+                justify-content: space-between
+                width: 160px
+                align-items: center
+                .b
+                    font-size: 16px
+                    color: rgb(255, 255, 255)
+                    width: 40px
+                    height: 40px
+                    border-radius: 50%
+                    border: 1px solid white
+                    text-align: center
+                    line-height: 40px
+                    cursor: pointer
+                .b:hover
+                    width: 50px
+                    height: 50px
+                    line-height: 50px
+                    
+                    
+                
+
+            
+
+
+
+
+
+
+
+
+                    
+                    
+
+
+
+
+
+
+
+
+
+
