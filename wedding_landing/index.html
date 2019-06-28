@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <title>Document</title>
-    
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="slick/slick-theme.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -15,10 +14,11 @@
 </head>
 <title>Wedding</title>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header_holder">
             <div class="logo"><img class="logo_item" src="icons/Artboard 1.svg" alt=""></div>
             <div class="menu">
+                <div class="close" onclick="close()"></div>
                 <a href="#page1" class="menu_item menu_first">Home</a>
                 <a href="#page2" class="menu_item menu_second">About us</a>
                 <a href="#page3" class="menu_item menu_third">Services</a>
@@ -30,7 +30,7 @@
 
     <div class="page1" id="page1">
         <div class="page1_container1">
-            <div class="hamburger">
+            <div class="hamburger" onclick="menu()">
                 <div class="hamb_item"></div>
                 <div class="hamb_item"></div>
                 <div class="hamb_item"></div>

@@ -22,4 +22,14 @@ $('.slider').slick({
       }
     ]
   });
+
+function menu(){
+  var selector = document.querySelector('#header');
+  selector.style.display = 'block';
+}
+
+function close(){
+  var selector = document.querySelector('#header');
+  selector.style.display = 'none';
+}
   
