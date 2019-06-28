@@ -803,7 +803,7 @@ header
 @media screen and (max-width: 420px)   
     header
         height: 0px
-        opacity: 0
+        display: none
         .header_holder
             width: 100%
             display: flex
@@ -811,17 +811,24 @@ header
                 display: none
             .menu
                 width: 100%  
-                height: 100vh
-                background-color: rgba(256, 256, 256, 1)
+                height: 58vh
+                background-color: rgba(256, 256, 256, 0.9)
                 display: flex
                 flex-direction: column  
                 justify-content: flex-start
-                z-index: 100
+                .close
+                    margin-top: 20px
+                    height: 40px
+                    width: 40px
+                    background: #000
+                    margin-left: 350px
                 .menu_item
                     margin-left: 45px
                     height: 20px
                     line-height: 20px
                     margin-top: 55px
+                .menu_first
+                    margin-top: 0px
 
     .page1
         background-position: 75% 35%
@@ -839,6 +846,7 @@ header
                 margin-top: 30px
                 margin-left: 84%
                 z-index: 1
+                position: fixed
                 .hamb_item
                     width: 100%
                     height: 0px
@@ -848,7 +856,7 @@ header
                 margin: 0 auto
                 flex-direction: column
                 min-width: 100%
-                padding-top: 455px
+                padding-top: 510px
                 text-align: center
                 display: flex
                 flex-direction: column
@@ -872,7 +880,7 @@ header
                     margin: 0 auto
                     
     .page2
-        margin-top: 180px
+        margin-top: 170px
         height: 610px
         .page2_container2
             min-width: 100%
