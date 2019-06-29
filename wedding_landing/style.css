@@ -1266,20 +1266,22 @@ header .header_holder .menu .menu_item:hover {
 }
 
 @media screen and (max-width: 420px) {
-  header {
+  .header {
     height: 0px;
     display: none;
   }
-  header .header_holder {
+  .header .header_holder {
     width: 100%;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    overflow: hidden;
   }
-  header .header_holder .logo {
+  .header .header_holder .logo {
     display: none;
   }
-  header .header_holder .menu {
+  .header .header_holder .menu {
     width: 100%;
     height: 58vh;
     background-color: rgba(255, 255, 255, 0.9);
@@ -1293,22 +1295,28 @@ header .header_holder .menu .menu_item:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
   }
-  header .header_holder .menu .close {
-    margin-top: 20px;
+  .header .header_holder .menu .close {
+    margin-top: 25px;
     height: 40px;
     width: 40px;
     background: #000;
-    margin-left: 350px;
+    margin-left: 348px;
   }
-  header .header_holder .menu .menu_item {
+  .header .header_holder .menu .menu_item {
     margin-left: 45px;
     height: 20px;
     line-height: 20px;
     margin-top: 55px;
   }
-  header .header_holder .menu .menu_first {
+  .header .header_holder .menu .menu_first {
     margin-top: 0px;
+  }
+  .header.active {
+    display: block;
   }
   .page1 {
     background-position: 75% 35%;
@@ -1341,6 +1349,7 @@ header .header_holder .menu .menu_item:hover {
     margin-left: 84%;
     z-index: 1;
     position: fixed;
+    background: rgba(255, 255, 255, 0.5);
   }
   .page1 .page1_container1 .hamburger .hamb_item {
     width: 100%;
