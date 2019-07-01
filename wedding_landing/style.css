@@ -134,10 +134,13 @@ header .header_holder .menu .menu_item:hover {
 }
 
 .page1 .page1_container1 .container1_start .branch {
+  width: 60%;
+  margin-left: 20%;
   margin-top: -28px;
 }
 
 .page1 .page1_container1 .container1_start .perfectWedding {
+  width: 100%;
   margin-top: -82px;
   margin-bottom: 15px;
 }
@@ -1298,13 +1301,20 @@ header .header_holder .menu .menu_item:hover {
     height: 100vh;
     overflow: hidden;
     position: fixed;
+    -webkit-transition: 300ms;
+    transition: 300ms;
   }
   .header .header_holder .menu .close {
-    margin-top: 25px;
-    height: 40px;
-    width: 40px;
-    background: #000;
-    margin-left: 348px;
+    background: white;
+    background-image: url(icons/close.svg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    margin-top: 31px;
+    height: 28px;
+    width: 28px;
+    margin-left: 85.5%;
+    -webkit-box-shadow: 0 0 0 10px white;
+            box-shadow: 0 0 0 10px white;
   }
   .header .header_holder .menu .menu_item {
     margin-left: 45px;
@@ -1317,6 +1327,8 @@ header .header_holder .menu .menu_item:hover {
   }
   .header.active {
     display: block;
+    -webkit-transition: 300ms;
+    transition: 300ms;
   }
   .page1 {
     background-position: 75% 35%;
@@ -1349,7 +1361,9 @@ header .header_holder .menu .menu_item:hover {
     margin-left: 84%;
     z-index: 1;
     position: fixed;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.7);
+            box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.7);
   }
   .page1 .page1_container1 .hamburger .hamb_item {
     width: 100%;

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="normilize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<title>Wedding</title>
+<body>
+    <header class="header" id="header">
+        <div class="header_holder">
+            <div class="logo"><img class="logo_item" src="icons/Artboard 1.svg" alt=""></div>
+            <div class="menu">
+                <div class="close"></div>
+                <a href="#page1" class="menu_item menu_first">Home</a>
+                <a href="#page2" class="menu_item menu_second">About us</a>
+                <a href="#page3" class="menu_item menu_third">Services</a>
+                <a href="#page4" class="menu_item menu_fourth">Gallery</a>
+                <a href="#page5" class="menu_item menu_fifth">Contuct us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="page1"> 
+        <h1 class="page1_title">EVENT PLANNING</h1>
+    </div>
+
+    <div class="page2">
+        <div class="page2_container">
+            <div class="pagesHolder">
+                <div class="pagesHolder_item" id="one">Profile</div>
+                <div class="pagesHolder_item" id="two">To Do List</div>
+                <div class="pagesHolder_item" id="three">My Budget</div>
+                <div class="pagesHolder_item" id="four">Wishlist</div>
+            </div>
+
+            <div class="titleHolder"></div>
+            <p class="create">Create New Task</p>
+
+            <div class="holder_content">
+                <div id="content_1" class="content_1">
+                    <div class="lds-hourglass"></div>
+                </div>
+
+                <div id="content_2" class="content_2">
+                    <form class="form1">
+                        <div class="form1_text">Task Title</div>
+                        <input class="form1_item" type="text" name="Full name" required>
+                
+                        <div class="form1_text">Task Date</div>
+                        <input class="form1_item" type="text" name="Full name" required>
+                
+                        <div class="form1_text">Task Deskription</div>
+                        <textarea></textarea>
+
+                        <button type="submit" class="form1_button">SAVE TASK</button>
+                    </form>
+
+                    <form class="form2">
+                        <select class="form2_item">
+                            <option value="month">January 2020</option>
+                            <option class="b" value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                          <select class="form2_item">
+                            <option value="month">March 2020</option>
+                            <option value="1">2001</option>
+                            <option value="2">2002</option>
+                            <option value="3">2003</option>
+                        </select>
+                        <select class="form2_item">
+                            <option value="month">May 2020</option>
+                            <option value="1">2001</option>
+                            <option value="2">2002</option>
+                            <option value="3">2003</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div id="content_3" class="content_3">
+                    <div class="lds-ripple"><div></div><div></div></div>
+                </div>
+                <div id="content_3" class="content_4">
+                    <div class="lds-circle"><div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page8" id="page5">
+        <div class="page8_container8">
+            <div class="container8_content8">
+                <div class="content8_item1">
+                    <div class="logo"><img class="logo_item" src="icons/logo_white.svg" alt=""></div> 
+                    <a href="#page1">Home</a>
+                    <a href="#page2">About us</a>
+                    <a href="#page3">Services</a>
+                    <a href="#page4">Gallery</a>
+                    <a href="#page5">Contuct us</a>
+                </div>
+                <div class="content8_item2">
+                    <p class="item2_contuct">CONTACT</p>
+                    <div class="item2_place"><img src="icons/pointer.svg" alt=""><p>32 Love Street, Darlinghurst NSW 8899, United States</p></div>
+                    <div class="item2_phone"> <img src="icons/phone.svg" alt=""> <p>1-800-123-1234</p></div>
+                    <p class="item2_social">GET SOCIAL</p>
+                    <p class="item2_follow">Follow us to stay connected and receive<br>instant updates.</p>
+                    <div class="item2_socialPages">
+                        <div><i class="fab fa-facebook-f"></i></div>
+                        <div><i class="fab fa-instagram"></i></div>
+                        <div><i class="fab fa-youtube"></i></div>
+                    </div>
+                </div>
+                <form class="content8_item3">
+                    <input class="formItem" type="text" name="Name" placeholder="Name" required>
+                    <input class="formItem" type="email" name="E-mail" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <textarea type="text" placeholder="Message"></textarea>
+                    <button class="formButton" type="submit" class="bottom">GET IN TOUCH</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeDWMcASXx93l0WoSX5Vy9Nz4baixfmJs"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="j.js"></script>
+</body>
+</html>
