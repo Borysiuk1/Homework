@@ -26,15 +26,34 @@ $('.slider').slick({
 var openBtn = document.querySelector('.hamburger');
 var closeBtn = document.querySelector('.close');
 var modal = document.querySelector('.header');
+var close = document.querySelector('.menu_first');
+var close1 = document.querySelector('.menu_second');
+var close2 = document.querySelector('.menu_third');
+var close3 = document.querySelector('.menu_fourth');
+var close4 = document.querySelector('.menu_fifth');
 
-// function menu() {
-//   modal.classList.add('active');
-// }
+
+openBtn.addEventListener('click', () => {
+  modal.classList.add('active');
+})
+
 closeBtn.addEventListener('click', () => {
   modal.classList.remove('active');
 })
-openBtn.addEventListener('click', () => {
-  modal.classList.add('active');
+close.addEventListener('click', () => {
+  modal.classList.remove('active');
+})
+close1.addEventListener('click', () => {
+  modal.classList.remove('active');
+})
+close2.addEventListener('click', () => {
+  modal.classList.remove('active');
+})
+close3.addEventListener('click', () => {
+  modal.classList.remove('active');
+})
+close4.addEventListener('click', () => {
+  modal.classList.remove('active');
 })
 
 // function close() {
@@ -53,3 +72,6 @@ function close(){
   close.style.display = 'none';
 }*/
   
+// function menu() {
+//   modal.classList.add('active');
+// }
