@@ -162,12 +162,16 @@ header .header_holder .menu .menu_item:hover {
   background: #ffd1ba;
   width: 271px;
   margin: 0 auto;
-  font-size: 18px;
-  font-family: "JosefinSans";
-  color: #333333;
   cursor: pointer;
   -webkit-transition: 300ms;
   transition: 300ms;
+}
+
+.page1 .page1_container1 .container1_start .start_button .button_text {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "JosefinSans";
+  color: #333333;
 }
 
 .page1 .page1_container1 .container1_start .start_button:active {

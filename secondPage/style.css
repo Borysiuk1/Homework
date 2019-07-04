@@ -161,6 +161,12 @@ header .header_holder .menu .menu_item:hover {
   color: #999999;
   -webkit-transition: 300ms;
   transition: 300ms;
+  cursor: pointer;
+}
+
+.page2 .page2_container .pagesHolder .pagesHolder_item:hover {
+  -webkit-box-shadow: 0 0 7px 2px #999999;
+          box-shadow: 0 0 7px 2px #999999;
 }
 
 .page2 .page2_container .pagesHolder .active {
@@ -169,14 +175,23 @@ header .header_holder .menu .menu_item:hover {
   color: black;
 }
 
-.page2 .page2_container .titleHolder {
+.page2 .page2_container .container2_title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
   text-align: center;
   width: 375px;
   height: 37px;
   line-height: 37px;
-  border: 1px solid black;
   margin-bottom: 60px;
+}
+
+.page2 .page2_container .container2_title2 .title2_text {
+  font-family: "JosefinSans";
 }
 
 .page2 .page2_container .create {
@@ -265,6 +280,7 @@ header .header_holder .menu .menu_item:hover {
   font-family: "JosefinSans";
   border: none;
   border: 1px solid #999999;
+  cursor: pointer;
 }
 
 .page2 .page2_container .holder_content .content_2 .form1 textarea {
@@ -291,10 +307,18 @@ header .header_holder .menu .menu_item:hover {
   font-family: "JosefinSans";
   font-size: 20px;
   outline: none;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.page2 .page2_container .holder_content .content_2 .form1 .form1_button:hover {
+  -webkit-box-shadow: 0 0 10px 3px #ffd1ba;
+          box-shadow: 0 0 10px 3px #ffd1ba;
 }
 
 .page2 .page2_container .holder_content .content_2 .form1 .form1_button:active {
-  background: #FFD1BA;
+  background: #ffd1ba;
   color: black;
 }
 
@@ -311,18 +335,31 @@ header .header_holder .menu .menu_item:hover {
 }
 
 .page2 .page2_container .holder_content .content_2 .form2 .form2_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 70px;
   line-height: 70px;
+  padding-left: 15px;
+  margin-top: 30px;
   margin-bottom: 50px;
   outline: none;
+  border: none;
+  border: 1px solid #999999;
+}
+
+.page2 .page2_container .holder_content .content_2 .form2 .form2_item p {
   color: black;
   font-size: 18px;
   font-family: "JosefinSans";
-  background: none;
-  margin-top: 29px;
-  border: none;
-  border-radius: none;
-  border: 1px solid #999999;
+}
+
+.page2 .page2_container .holder_content .content_2 .form2 .form2_item img {
+  padding-right: 15px;
+  cursor: pointer;
 }
 
 .page2 .page2_container .holder_content .content_3 {
