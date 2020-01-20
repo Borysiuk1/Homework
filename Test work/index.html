@@ -4,12 +4,16 @@
 	<link rel="stylesheet" type="text/css" href="normilize.css">
 	<link rel="icon" href="images/png/cmyk.png" type="image/x-icon">
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test work</title>
 </head>
 <body>
-	<header>
+	<header class="header">
 		<div class="header_top">
+			<div class="close"></div>
 			<div class="header_topHolder">
 				<img class="logo" src="images/svg/logo.svg" alt="Логотип">
 				<div class="header_top-center">
@@ -20,38 +24,65 @@
 				<div class="header_top-right">
 					<div class="right-1">
 						<div class="right-links">
-							<img src="images/svg/user.svg" alt="Юзер">
+							<img class="user" src="images/svg/user.svg" alt="Юзер">
 							<a href="###">Личный кабинет</a>
 						</div>
 						<a href="###" class="links-mail">maket@test-vertka.ua</a>
 					</div>
 					<div class="right-2">
-
+						<a href="###" class="facebook"><img src="images/svg/facebook.svg" alt="Facebook"></a>
+						<div class="dropdown">
+							<div class="Phones">
+								<img src="images/svg/phone.svg" alt="Номер телефона">
+								<div class="phone">
+									<p>(044) 345-40-42</p>
+									<button class="phoneDown">
+										<img src="images/svg/phoneDown.svg" alt="Номера телефонов">
+									</button>
+								</div>
+							</div>
+							<div class="dropIm">
+								<div class="rotate"></div>
+								<div>
+									<img src="images/svg/image.svg" alt="Vodaphone">
+									<p>(099) 445-54-18</p>
+								</div>
+								<div>
+									<img src="images/svg/image-3.svg" alt="Kyivstar">
+									<p>(096) 497-78-03</p>
+								</div>
+								<div>
+									<img src="images/svg/image-2.svg" alt="Life">
+									<p>(063) 435-16-81</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+				<img class="basket" src="images/svg/shopping-cart.svg" alt="Корзина">
 			</div>
 		</div>
 
 		<div class="header_bottom">
 			<div class="header_bottomHolder">
-				<div class="bottom-1">
+				<a class="bottom-1" href="#page1">
 					<p>Главная</p>
-				</div>
-				<div class="bottom-2">
+				</a>
+				<a class="bottom-2" href="#page2">
 					<p>Продукция</p>
-				</div>
-				<div class="bottom-3">
+				</a>
+				<a class="bottom-3" href="#page3">
 					<p>Доставка и оплата</p>
-				</div>
-				<div class="bottom-4">
+				</a>
+				<a class="bottom-4" href="#page4">
 					<p>Новости</p>
-				</div>
-				<div class="bottom-5">
+				</a>
+				<a class="bottom-5" href="#page5">
 					<p>База знаний</p>
-				</div>
-				<div class="bottom-6">
+				</a>
+				<a class="bottom-6" href="#page6">
 					<p>О нас</p>
-				</div>
+				</a>
 				<search>
 					<img src="images/svg/search.svg" alt="Поиск">
 				</search>
@@ -59,8 +90,15 @@
 		</div>	
 	</header>
 
-	<div class="page1">
+	<div class="page1" id="page1">
 		<div class="page1Holder">
+
+			<div class="hamburger">
+                <div class="hamb_item"></div>
+                <div class="hamb_item"></div>
+                <div class="hamb_item"></div>
+            </div>
+
 			<h1 class="page1_title">Оперативная печать полиграфии от 1 дня!</h1>
 			<div class="line"></div>
 			<p class="page1_text">Доставка в любой город Украины</p>
@@ -72,7 +110,7 @@
 		</div>
 	</div>
 
-	<div class="page2">
+	<div class="page2" id="page2">
 		<div class="page2Holder">
 			<h1 class="page2_title">Продукция</h1>
 			<div class="productionHolder">
@@ -121,12 +159,13 @@
 					</div>
 				</div>
 			</div>
-			<h1 class="page2_title2">О нaс</h1>
+			<h1 class="page2_title2" id="page6">О нaс</h1>
+			<p class="page2_undertitle">Оперативная печать полиграфии от 1 дня!</p>
 			<p class="page2_text">Перед долгим заплывом намажьтесь солнцезащитным кремом. Вода не спасает от вредного излучения, оно проникает и на глубину 1 м.</br> Прежде чем отправиться на пляж, съешьте что-нибудь солененькое или выпейте чай с лимоном. Считается, что тем самым вы предотвратите потерю важных минеральных веществ, которые покидают тело вместе с потом, а загар при этом ляжет ровнее. Находясь на солнце, следует больше двигаться — плавать, делать гимнастику, играть в мяч и т.д.</br> Лучше ходить босиком, чем в тапочках. Не рекомендуется покрывать ногти лаком, пусть они отдохнут и получат солнечные лучи и воздух.</p>
 		</div>
 	</div>
 
-	<div class="page3">
+	<div class="page3" id="page4">
 		<div class="page3Holder">
 			<h1 class="page3_title">Новости</h1>
 			<div class="newsHolder">
@@ -147,6 +186,52 @@
 		</div>
 	</div>
 
-	<footer></footer>
+	<footer>
+		<div class="footerHolder">
+			<div class="imgText">
+				<img class="footer_logo" src="images/svg/logo.svg" alt="Логотип">
+				<p>2018 — Все права защищены</p>
+			</div>
+			<div class="footer_work">
+				<p class="work-1">Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!</p>
+				<p class="work-2">Работаем с 9 до 18, вс и сб выходные</p>
+			</div>
+			<div class="navigation">
+				<div>
+					<a href="#page1">Главная</a>
+					<a href="#page2">Продукция</a>
+					<a href="#page3">Доставка и оплата</a>
+				</div>
+				<div>
+					<a href="#page4">Новости</a>
+					<a href="#page5">База знаний</a>
+					<a href="#page6">О нас</a>
+				</div>
+			</div>
+			<div class="final">
+				<div class="footer-right">
+					<div class="footer-right1">
+						<a href="###" class="facebook"><img src="images/svg/facebook.svg" alt="Facebook"></a>
+						<div class="Phones">
+							<img src="images/svg/phone.svg" alt="Номер телефона">
+							<div class="phone">
+								<p>(044) 345-40-42</p>
+								<button>
+									<img src="images/svg/phoneDown.svg" alt="Номера телефонов">
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="contacts">Контакты</p>
+				<div class="glianec">
+					<img src="images/svg/glianec.svg" alt="Глянец">
+					<p>Глянец — Разработка сайтов</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="j.js"></script>
 </body>
 </html>
